@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Portfolio or something like that</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            .container {
+                max-width: 960px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .projects {
+                margin-bottom: 20px;
+                border: 1px solid #000000;
+                padding: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="about">
+            <div class="container">
+                <img src="images/profile.png" alt="Tyler Halbur" style="width:50%">
+                <h1 style="color:#008000;">Tyler Halbur, 3rd Year Computer Science Student</h1>
+                <p>Hello! I am Tyler Halbur, a 3rd year COMS student at Iowa State. I enjoy working with computers, both physcially and digitally.
+                    I often code in my free time, mostly for personal projects that let me learn more about a given topic or language.
+                    I work at the ISU Surplus as an IT student, where we process all the computers the university acquires with federal funding.
+                    Our main goal is data security, making sure sensitive university data doesn't make it outside the university, and then we sell
+                    anything we can get working that we think people will want. Laptops, towers, servers, and loads of other stuff come through us.
+                </p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h1>Projects</h1>
+                <img src="images/project1.png" alt="Fractal Viewer" style="width:25%">
+                <img src="images/project2.png" alt="Fractal Viewer" style="width:25%">
+                <h2>Fractal Viewer</h2>
+                <p>Most of the projects to my name are currently personal and thus relatively small in both scale and scope.
+                    One of my more polished small projects is a fractal viewer, allowing a user to zoom in on the famous Mandelbrot Set.
+                    This project was done in a couple hundred lines of C code, and was a good excuse to learn a great many things, from OpenGL
+                    to complex numbers in code to even CUDA to enable my GPU to do highly paralellizable work.
+                </p>
+                <h2>Chat Client</h2>
+                <p>A small project of mine for a while was a chat client, done in Java for both the server and client. The main desire was
+                    to see how feasbile an alternative to a webapp-based application was. I'd say from what I experienced, with some elbow grease
+                    and a strong desire to see it through, it would be possible, however I lacked both of those, and as such it has been shelved for now.
+                </p>
+                <h2>Hotel Management Software</h2>
+                <p>A slightly larger project for COMS 3620. It required collaboration with four other people, and was mainly used as a tool
+                    to help us learn design patterns, principles of design, and how to work as a team for code projects. This was where I learned to
+                    use Git.
+                </p>
+                <h2>Smartcheck.sh</h2>
+                <p>This (currently) small project was done for one specific purpose at the Surplus: to gather the SMART data off of hard drives
+                    so we could gauge how "healthy" they still were. Initially just meant to scrape useful data from SAS hard drives, it quickly
+                    grew into a tool to scan most hard drives we could throw through it. This project is currently done with a Bash script.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h1>Contact Me!</h1>
+                <p>For school, you can reach me at tjhalbur@iastate.edu</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; Tyler Halbur 2026</p>
+        </footer>
+    </body>
+</html>
